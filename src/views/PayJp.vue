@@ -13,7 +13,7 @@
             <p>token={{token}}</p>
         </div>
 
-        <button @click="charge">売上を作る</button>
+        <button @click="charge" class="btn">売上を作る</button>
 
         <div ref="payjpArea"></div>
     </div>
@@ -39,7 +39,7 @@ export default {
     methods:{
         onTokenCreated:function(res){
             console.log(res.id);
-            this.token=res.id;            
+            this.token=res.id;
         },
         onTokenFailed:function(){
 
@@ -65,3 +65,6 @@ export default {
  }
 
 </script>
+<style scoped>
+@import "../assets/css/style_base.css";
+</style>
