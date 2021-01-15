@@ -17,7 +17,6 @@
              v-model="selected2"
              :label="fa.num" 
              :items="items2"
-             
         ></v-select>        
         
     </div>
