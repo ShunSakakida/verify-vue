@@ -58,6 +58,12 @@ const routes = [{
         component: () =>
             import ('../views/PayJp.vue'),
     },
+    {
+        path: '/pulldown',
+        name: 'Pulldown',
+        component: () =>
+            import ('../views/PullDown.vue'),
+    },
 ]
 
 const router = new VueRouter({

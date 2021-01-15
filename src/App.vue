@@ -8,6 +8,8 @@
     <router-link to="/component">Component</router-link>
     <router-link to="/gmappin">GoogleMapのピン立て</router-link>
     <router-link to="/payjp">PayJp</router-link>
+    <router-link to="/pulldown">PullDown</router-link>
+    <p>変更してみた</p>
     <hr>
     <router-view />
     <!-- <v-app-bar>
