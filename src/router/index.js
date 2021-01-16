@@ -64,6 +64,12 @@ const routes = [{
         component: () =>
             import ('../views/PullDown.vue'),
     },
+    {
+        path: '/css',
+        name: 'CSS',
+        component: () =>
+            import ('../views/CSS.vue'),
+    },
 ]
 
 const router = new VueRouter({
