@@ -1,18 +1,18 @@
-# Slick
+## Slick
 
-# セレクトボックス
-## v-selent
+## セレクトボックス
+### v-selent
 
-# TimePicker
+## TimePicker
 
-# ページング
+## ページング
 
-# Slick ✕ ページング
+## Slick ✕ ページング
 
-# GoogleMapピン立て
+## GoogleMapピン立て
 
-# Pay.jp
+## Pay.jp
 
-# プルダウン
+## プルダウン
 
 
