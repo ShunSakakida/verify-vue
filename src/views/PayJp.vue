@@ -65,6 +65,3 @@ export default {
  }
 
 </script>
-<style scoped>
-@import "../assets/css/style_base.css";
-</style>
