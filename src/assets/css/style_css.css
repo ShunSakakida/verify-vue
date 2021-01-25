@@ -2,3 +2,7 @@
     border: 1px solid;
     cursor: pointer;
 }
+
+.cursor-pointer__text{
+    cursor: pointer;
+}

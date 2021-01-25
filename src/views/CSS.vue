@@ -1,10 +1,16 @@
 <template>
     <div class="container">
+        <p>カーソルポインタ検証</p>
         <div class="cursor-pointer">
-                <!-- <i class="fas fa-user-circle"><br> -->
-                <!-- <label class="">マイページ</label> -->
+                <i class="fas fa-plus-circle" id="id"></i><br>
+                <label class="cursor-pointer__text" for="id">マイページ</label>
         </div>
 
+        <p>選択時の下線</p>
+        <!-- https://blog.raizzenet.com/mouse-hover-effect-in-border-bottom-on-menu/ -->
+        <div>
+            
+        </div>
 
     </div>
 </template>
