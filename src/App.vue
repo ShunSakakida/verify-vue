@@ -10,6 +10,8 @@
       <router-link class="rl" to="/gmappin">GoogleMapのピン立て</router-link>
       <router-link class="rl" to="/payjp">PayJp</router-link>
       <router-link class="rl" to="/pulldown">PullDown</router-link>
+      <router-link class="rl" to="/css">CSS</router-link>
+      <router-link class="rl" to="/bb/before">ブラウザバック</router-link>
     </div>
     <hr>
     <router-view />

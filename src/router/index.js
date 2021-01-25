@@ -70,6 +70,18 @@ const routes = [{
         component: () =>
             import ('../views/CSS.vue'),
     },
+    {
+        path: '/bb/before',
+        name: 'Before',
+        component: () =>
+            import ('../views/BrowserBack/Before.vue'),
+    },
+    {
+        path: '/bb/after',
+        name: 'After',
+        component: () =>
+            import ('../views/BrowserBack/After.vue'),
+    },
 ]
 
 const router = new VueRouter({
