@@ -12,6 +12,7 @@
       <router-link class="rl" to="/pulldown">PullDown</router-link>
       <router-link class="rl" to="/css">CSS</router-link>
       <router-link class="rl" to="/bb/before">ブラウザバック</router-link>
+      <router-link class="rl" to="/validation">バリデーション</router-link>
     </div>
     <hr>
     <router-view />

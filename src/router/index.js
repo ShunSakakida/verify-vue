@@ -82,6 +82,12 @@ const routes = [{
         component: () =>
             import ('../views/BrowserBack/After.vue'),
     },
+    {
+        path: '/validation',
+        name: 'Validation',
+        component: () =>
+            import ('../views/Validation.vue'),
+    },
 ]
 
 const router = new VueRouter({
