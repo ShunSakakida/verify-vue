@@ -13,6 +13,7 @@
       <router-link class="rl" to="/css">CSS</router-link>
       <router-link class="rl" to="/bb/before">ブラウザバック</router-link>
       <router-link class="rl" to="/validation">バリデーション</router-link>
+      <router-link class="rl" to="/path-param/testid">パスパラム</router-link>
     </div>
     <hr>
     <router-view />

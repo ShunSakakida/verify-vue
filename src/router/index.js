@@ -88,6 +88,12 @@ const routes = [{
         component: () =>
             import ('../views/Validation.vue'),
     },
+    {
+        path: '/path-param/:id',
+        name: 'pathParam',
+        component: () =>
+            import ('../views/PathParam.vue'),
+    },
 ]
 
 const router = new VueRouter({
