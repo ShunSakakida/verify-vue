@@ -28,10 +28,18 @@ export default {
              console.log('$routeが変わった');
              console.log(to);
              console.log(from);
-         }
+         },
+        // https://qiita.com/nakata_kazuhiro/items/c385ab10b062c079859a
+        'outer.innner': function(to,from){
+            console.log(to);
+            console.log(from);
+        }
      },
      data() {
          return {
+             outer:{
+                 innner:null
+             }
          }
      },
  }
