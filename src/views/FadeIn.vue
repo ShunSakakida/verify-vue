@@ -4,7 +4,7 @@
         <hr>
         <button class="btn" @click="fadein">フェードインさせるぜ</button><br>
         <button class="btn" @click="fadeout">フェードアウトさせるぜ</button><br>
-        <transition class="fadein">
+        <transition>
             <div class="fadein__bg" v-if="show">
                 <div class="fadein__context">
                     <p>コンテキスト</p>
