@@ -94,6 +94,12 @@ const routes = [{
         component: () =>
             import ('../views/PathParam.vue'),
     },
+    {
+        path: '/uuid',
+        name: 'uuid',
+        component: () =>
+            import ('../views/UUID.vue'),
+    },
 ]
 
 const router = new VueRouter({
