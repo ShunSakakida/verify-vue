@@ -100,6 +100,12 @@ const routes = [{
         component: () =>
             import ('../views/UUID.vue'),
     },
+    {
+        path: '/fadein',
+        name: 'fadein',
+        component: () =>
+            import ('../views/FadeIn.vue'),
+    },
 ]
 
 const router = new VueRouter({

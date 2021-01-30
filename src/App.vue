@@ -15,6 +15,7 @@
       <router-link class="rl" to="/validation">バリデーション</router-link>
       <router-link class="rl" to="/path-param/testid">パスパラム</router-link>
       <router-link class="rl" to="/uuid">UUID</router-link>
+      <router-link class="rl" to="/fadein">フェードイン</router-link>
     </div>
     <hr>
     <router-view />
@@ -49,8 +50,6 @@ export default {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 10px;
-
-  
 }
 
 
