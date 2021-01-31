@@ -106,6 +106,12 @@ const routes = [{
         component: () =>
             import ('../views/FadeIn.vue'),
     },
+    {
+        path: '/stripe',
+        name: 'stripe',
+        component: () =>
+            import ('../views/Stripe.vue'),
+    },
 ]
 
 const router = new VueRouter({
