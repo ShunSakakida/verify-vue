@@ -17,6 +17,8 @@
       <router-link class="rl" to="/uuid">UUID</router-link>
       <router-link class="rl" to="/fadein">フェードイン</router-link>
       <router-link class="rl" to="/stripe">Stripe</router-link>
+      <router-link class="rl" to="/stripe2">Stripe2</router-link>
+      <router-link class="rl" to="/stripe3">Stripe3</router-link>
     </div>
     <hr>
     <router-view />

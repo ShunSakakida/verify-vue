@@ -112,6 +112,18 @@ const routes = [{
         component: () =>
             import ('../views/Stripe.vue'),
     },
+    {
+        path: '/stripe2',
+        name: 'stripe2',
+        component: () =>
+            import ('../views/Stripe2.vue'),
+    },
+    {
+        path: '/stripe3',
+        name: 'stripe3',
+        component: () =>
+            import ('../views/Stripe3.vue'),
+    },
 ]
 
 const router = new VueRouter({
