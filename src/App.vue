@@ -19,6 +19,7 @@
       <router-link class="rl" to="/stripe">Stripe</router-link>
       <router-link class="rl" to="/stripe2">Stripe2</router-link>
       <router-link class="rl" to="/stripe3">Stripe3</router-link>
+      <router-link class="rl" to="/stripe4">Stripe4</router-link>
     </div>
     <hr>
     <router-view />

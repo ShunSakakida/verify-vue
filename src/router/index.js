@@ -110,19 +110,25 @@ const routes = [{
         path: '/stripe',
         name: 'stripe',
         component: () =>
-            import ('../views/Stripe.vue'),
+            import ('../views/Stripe/Stripe.vue'),
     },
     {
         path: '/stripe2',
         name: 'stripe2',
         component: () =>
-            import ('../views/Stripe2.vue'),
+            import ('../views/Stripe/Stripe2.vue'),
     },
     {
         path: '/stripe3',
         name: 'stripe3',
         component: () =>
-            import ('../views/Stripe3.vue'),
+            import ('../views/Stripe/Stripe3.vue'),
+    },
+    {
+        path: '/stripe4',
+        name: 'stripe4',
+        component: () =>
+            import ('../views/Stripe/Stripe4.vue'),
     },
 ]
 
