@@ -130,6 +130,12 @@ const routes = [{
         component: () =>
             import ('../views/Stripe/Stripe4.vue'),
     },
+    {
+        path: '/ls',
+        name: 'ls',
+        component: () =>
+            import ('../views/LocalStrage.vue'),
+    },
 ]
 
 const router = new VueRouter({

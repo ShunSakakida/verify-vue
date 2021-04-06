@@ -57,6 +57,7 @@ export default {
   },
   mounted: async function(){
     const stripe = await loadStripe('pk_test_51IBD8VFDFn7wOoD01z8ZMQWM4iMRRUSr4VBwFFEDbsSeq3xBqadosJ09Gt6iQEVdyHqqhlq0F1YKbrA76vlTwVOo00ae8Epd0m');
+    console.log(stripe);
     this.stripe=stripe;
     let elements = stripe.elements();
     
